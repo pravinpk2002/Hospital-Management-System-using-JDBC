@@ -19,8 +19,10 @@ public class Patient {
 
     public void addPatient(){
 
+        scanner.nextLine();
         System.out.println("Enter Patient Name: ");
-        String name = scanner.next();
+
+        String name = scanner.nextLine();
         System.out.println("Enter Patient Age: ");
         int age = scanner.nextInt();
         System.out.println("Enter Patient Gender: ");
